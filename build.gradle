@@ -18,6 +18,10 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	implementation 'com.github.vladimir-bukhtoyarov:bucket4j-core:7.5.0'
+	implementation 'com.github.vladimir-bukhtoyarov:bucket4j-jcache:7.4.0'
+
+	implementation 'org.redisson:redisson-spring-boot-starter:3.17.1'
+
 }
 
 tasks.named('test') {
