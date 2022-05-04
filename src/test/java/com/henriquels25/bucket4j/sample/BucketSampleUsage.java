@@ -8,7 +8,7 @@ import java.time.Duration;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BucketTest {
+public class BucketSampleUsage {
 
     @Test
     void creatingABucketSample(){
